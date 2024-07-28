@@ -1,0 +1,65 @@
+.header {
+    padding: 25px 0;
+    border-bottom: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0.379);
+    &-container{
+            display: flex;
+            gap: 93px;
+            align-items: center;           
+    }
+    &-logo{
+        color: #000000;
+    }
+  }
+  .contact-list {
+    display: none;
+    @include tab(767px){
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+   @include desc(1199px){
+    margin-left: auto;
+    color: black;
+    gap: 50px;
+    flex-direction: row;
+   }
+
+    &-link{
+        font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #757575;
+    &:hover{
+        color: #2196F3;
+    }
+    }
+  }
+  .nav-list{
+   
+    display: none;
+    gap: 50px;
+    color: #000000;
+    @include desc(1199px){
+        display: flex;
+    }
+    &-link{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.41px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #212121;
+        &:hover{
+            color: #2196F3; 
+        }
+
+    }
+        
+    }
+ 
+
