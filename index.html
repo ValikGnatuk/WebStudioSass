@@ -26,41 +26,40 @@
                 <li class="contact-list-item"><a href="" class="contact-list-link">info@devstudio.com</a></li>
                 <li class="contact-list-item"><a href="" class="contact-list-link">+38 096 111 11 11</a></li>
             </ul>
-            <button class="mob-menu-open-btn">
+            <button class="mob-menu__open">
                 <svg width="40" height="40">
                     <use href="./symbol-defs.svg#icon-menu" ></use>
                 </svg>
             </button>
         </div>
-        <div class="mob-menu is-hidden">
-            <div class="container mob-menu-container">
-            <div class="mob-menu-top">
-                <button class="mob-menu-close-btn">
-                    <svg width="40" height="40">
-                        <use href="./symbol-defs.svg#icon-mob-menu-close"></use>
+        <div class="mob-menu is-hidden-mob">
+            <div class="mob-menu__container">
+                <button class="mob-menu__close">
+                    <svg width="18" height="18">
+                        <use href="./images/symbol-defs.svg#icon-exit" class="modal-close-icon"></use>
                     </svg>
                 </button>
-                <nav class="mob-menu-nav">
-                    <ul class="mob-menu-nav-list">
-                        <li class="mob-menu-nav-list-item"><a class="mob-menu-nav-link" href="">Студія</a></li>
-                        <li class="mob-menu-nav-list-item"><a class="mob-menu-nav-link" href="">Портфоліо</a></li>
-                        <li class="mob-menu-nav-list-item"><a class="mob-menu-nav-link" href="">Контакти</a></li>  
+                
+                <nav class="mob-navigation">
+                    <ul class="mob-navigation__list">
+                        <li class="mob-navigation__item"><a href="./index.html" class="mob-navigation__link">Студія</a></li>
+                        <li class="mob-navigation__item"><a href="./portfolio.html" class="mob-navigation__link">Портфоліо</a></li>
+                        <li class="mob-navigation__item"><a href="" class="mob-navigation__link">Контакти</a></li>
                     </ul>
                 </nav>
-            </div>
-            <div class="mob-menu-bottom">
-                <ul class="mob-menu-contact-list">
-                    <li class="mob-menu-contact-list-item"><a class="mob-menu-list-tel" href="">+38 096 111 11 11</a></li>
-                    <li class="mob-menu-contact-list-item"><a class="mob-menu-list-mail" href="">info@devstudio.com</a></li>
-                </ul>
-                <ul class="mob-menu-social-list">
-                    <li class="mob-menu-social-list-item"><a class="mob-menu-social-list-link"href="">Instagram</a></li>
-                    <li class="mob-menu-social-list-item"><a class="mob-menu-social-list-link"href="">Twitter</a></li>
-                    <li class="mob-menu-social-list-item"><a class="mob-menu-social-list-link"href="">Facebook</a></li>
-                    <li class="mob-menu-social-list-item"><a class="mob-menu-social-list-link"href="">Linkedln</a></li>
-                </ul>
-            </nav>
-            </div>
+                
+                <div class="mob__bottom">
+                    <ul class="mob-contacts">
+                        <li class="mob-contacts__item"><a href="tel: +38 096 111 11 11" class="mob-contacts__tel">+38 096 111 11 11</a></li>
+                        <li class="mob-contacts__item"><a href="mailto: info@devstudio.com" class="mob-contacts__mail">info@devstudio.com</a></li>
+                    </ul>
+                    <ul class="mob-social">
+                        <li class="mob-social__item"><a href="" class="mob-social__link">Instagram</a></li>
+                        <li class="mob-social__item"><a href="" class="mob-social__link">Twitter</a></li>
+                        <li class="mob-social__item"><a href="" class="mob-social__link">Facebook</a></li>
+                        <li class="mob-social__item"><a href="" class="mob-social__link">LinkedIn</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -135,34 +134,34 @@
             </div>
         </section>
         <section class="clients ">
-           <div class="container">
-            <h2 class="clients-title">Постійні клієнти</h2>
-            <ul class="team-list">
-                <li class="team-list-item">
-                    <img src="./Component 1.png" alt="" class="team-list-img" width="170px">
-    
-                </li>
-                <li class="team-list-item">
-                    <img src="./Component 2.png" alt="" class="team-list-img" width="170px">
-    
-                </li>
-                <li class="team-list-item">
-                    <img src="./Component 3.png" alt="" class="team-list-img" width="170px">
-                </li>
-                <li class="team-list-item">
-                    <img src="./Component 4.png" alt="" class="team-list-img" width="170px"
-                >
-                </li>
-                <li class="team-list-item">
-                    <img src="./Component 5.png" alt="" class="team-list-img" width="170px"
-    >
-                </li>
-                <li class="team-list-item">
-                    <img src="./Component 6.png" alt="" class="team-list-img" width="170px"
-                >
-                </li>
-            </ul>
-           </div>
+            <div class="container">
+                <h2 class="clients-title">Постійні клієнти</h2>
+                <ul class="team-list">
+                    <li class="team-list-item">
+                        <img src="./Component 1.png" alt="" class="team-list-img" width="170px">
+                        
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./Component 2.png" alt="" class="team-list-img" width="170px">
+                        
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./Component 3.png" alt="" class="team-list-img" width="170px">
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./Component 4.png" alt="" class="team-list-img" width="170px"
+                        >
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./Component 5.png" alt="" class="team-list-img" width="170px"
+                        >
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./Component 6.png" alt="" class="team-list-img" width="170px"
+                        >
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
